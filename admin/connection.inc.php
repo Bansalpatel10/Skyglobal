@@ -1,11 +1,12 @@
 <?php
 session_start();
 $con=mysqli_connect("localhost","root","","ecomm");
+
 // Define the base directory path for the server
-define('SERVER_PATH', 'C:/xampp/htdocs/skyglobal/');
+define('SERVER_PATH', 'C:/xampp/htdocs/Projects/skygloba/');
 
 // Define the base URL for the website
-define('SITE_PATH', 'http://localhost/skyglobal/');
+define('SITE_PATH', 'http://localhost/Projects/skyglobal/');
 
 // Define paths for product images
 define('PRODUCT_IMAGE_SERVER_PATH', SERVER_PATH . 'media/product/');
